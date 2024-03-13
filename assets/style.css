@@ -1,11 +1,14 @@
 body {
+    /* Background Gradiant: https://cssgradient.io/ */
     background: rgb(145,210,252);
     background: radial-gradient(circle, rgba(145,210,252,1) 0%, rgba(240,225,90,1) 59%, rgba(255,138,239,1) 100%);
-    background-size: cover;
-    background-color: #cccccc;
-    background-repeat: no-repeat;
     font-family: "poppins", sans-serif;
-    color: #445361;
+    color: #07185B;
     text-align: center;
 }
 
+header {
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+}
