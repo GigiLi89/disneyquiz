@@ -60,9 +60,13 @@
   transition: all 0.3s;
 }
 
-.btn:hover {
+.btn:hover:not([disabled]) {
   background: #07185B;
   color: #ffffff;
+}
+
+.btn:disabled {
+  cursor: no-drop;
 }
 
 #next-btn {
@@ -77,9 +81,18 @@
   border: 1px solid;
   border-radius: 5px;
   cursor: pointer;
+  /*Add display: none; så gömmer sig knappen. Dyker upp när man valt alternativ*/
 }
 
 #next-btn:hover {
   background: #ffffff;
   color: #07185B;
+}
+
+.correct {
+  background: #bbdb8a;
+}
+
+.incorrect {
+  background: #e86551;
 }
