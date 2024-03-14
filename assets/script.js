@@ -1,3 +1,4 @@
+// Questions and answer options //
 const questions = [
     {
         question: "What was the name of Wendy's dog in Peter Pan?",
