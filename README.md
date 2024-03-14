@@ -1,6 +1,6 @@
-# Disney Quiz made by Gigi Li (Github: gigili89)
+# Disney Quiz
 
-The quiz has 10 Disney-related questions with for answer options per questions. You get one chance on each question, but you can redo the game as many times as you want.
+The quiz has 10 Disney-related questions with four answer options per question. You get one chance on each question, but you can redo the game as many times as you want. The quiz can be played by a wide age range of people and is an easily navigated game/site. 
 
 ## Website Goals
 ### Business Goals
@@ -50,6 +50,10 @@ A quiz in the main area, easily navigated with a question at the time together w
 ### Footer
 Social media icons in the footer from Font Awesome, the icons are linked to the social media pages. One for Facebook, one for Instagram and one for Twitter (X).
 
+### Future Features
+- Adding more quizes with a menu to navigate around the different quizes.
+- Adding different quizes, for e.g. a quiz with images or a music quiz.
+
 ## Design
 ### Color Scheme
 #07185B
@@ -64,10 +68,6 @@ For the logo, which I made in Canva, I used ITC Avant Garde Gothic.
 For the rest of the site I used Poppins and the fall-back font is sans-serif (Google Fonts).
 Bold (font-weight) was used on most text. 
 
-## Future Features
-- Adding more quizes with a menu to navigate around the different quizes.
-- Adding different quizes, for e.g. a quiz with images or a music quiz.
-
 ## Languages
 - HTML5 Markup Language, used to make the base of the site. 
 - CSS, Used to style most parts of the site.
@@ -78,17 +78,16 @@ Bold (font-weight) was used on most text.
 
 
 ## Resources
-Background Gradient: https://cssgradient.io/
-Convert, jpeg/png to webp: https://convertio.co/jpg-webp/
-Favicon: https://favicon.io/emoji-favicons/red-heart
-Font Awesome: 
-Google Fonts: https://fonts.google.com/
-Canva, for making the logo: https://www.canva.com/
-Helped with questions: https://www.beano.com/posts/the-ultimate-disney-quiz +
-https://www.bbc.co.uk/newsround/52023721
-Balsamiq Wireframe: 
-Lighthouse DevTool
+- Background Gradient: https://cssgradient.io/
+- Convert, jpeg/png to webp: https://convertio.co/jpg-webp/
+- Favicon: https://favicon.io/emoji-favicons/red-heart
+- Font Awesome: 
+- Google Fonts: https://fonts.google.com/
+- Canva, for making the logo: https://www.canva.com/
+- Helped with questions: https://www.beano.com/posts/the-ultimate-disney-quiz + https://www.bbc.co.uk/newsround/52023721
+- Balsamiq Wireframe: 
+- Lighthouse DevTool
 
 
 ## Sources
-https://www.youtube.com/watch?v=Xrsb9SiF3a8
+- https://www.youtube.com/watch?v=Xrsb9SiF3a8
