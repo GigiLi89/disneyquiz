@@ -1,47 +1,85 @@
-body {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+  }
+
+  body {
     /* Background Gradiant: https://cssgradient.io/ */
     background: rgb(238,168,202);
     background: linear-gradient(0deg, rgba(238,168,202,1) 0%, rgba(248,238,158,1) 100%);
     background-attachment: fixed;
-    font-family: "poppins", sans-serif;
+    height: 100vh;
     color: #07185B;
     text-align: center;
-    margin: 0px;
 }
 
 .header {
     background-color: #ffffff;
     padding: 10px;
     box-shadow: 0 2px 3px #07185B;
+    }
+
+.app {
+  background: #ffffff;
+  width: 90%;
+  max-width: 700px;
+  margin: 50px auto 0;
+  border-radius: 10px;
+  padding: 20px;
 }
 
-main {
-    flex: 1 0 auto;
-    display: flex;
-    flex-direction: column;
+.app h1 {
+  color: #07185B;
+  border-bottom: 1px solid #333;
+  padding: 10px;
 }
 
 .quiz {
-    margin: 10px;
-    font-size: 20px;
+  padding: 15px 0;
 }
 
-.quiz > button {
-    font-size: 20px;
+.quiz h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
-
-/* Footer */
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+.btn {
+  background: #ffffff;
+  color:#07185B;
+  font-weight: 500;
+  font-size: 18px;
+  width: 100%;
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
+.btn:hover {
+  background: #07185B;
+  color: #ffffff;
+}
+
+#next-btn {
+  background: #07185B;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border: 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#next-btn:hover {
+  background: #ffffff;
+  color: #07185B;
 }
