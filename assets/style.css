@@ -10,8 +10,15 @@ body {
 }
 
 .header {
-    background-color: aliceblue;
+    background-color: #ffffff;
     padding: 10px;
+    box-shadow: 0 2px 3px #07185B;
+}
+
+main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .quiz {
@@ -21,4 +28,20 @@ body {
 
 .quiz > button {
     font-size: 20px;
+}
+
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
