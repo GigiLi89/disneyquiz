@@ -30,9 +30,9 @@
   background: #ffffff;
   width: 70%;
   max-width: 900px;
-  margin: 20px auto 0;
+  margin: 30px auto 0;
   border-radius: 10px;
-  padding: 10px;
+  padding: 15px;
 }
 
 .app h1 {
@@ -101,6 +101,22 @@
   background: #e86551;
 }
 
+/* Footer */
+
+#social-networks {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #3a3a3a;
+}
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
