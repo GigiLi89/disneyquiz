@@ -37,7 +37,7 @@
 
 .app h1 {
   color: #07185B;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #07185B;
   padding: 15px;
 }
 
@@ -115,7 +115,7 @@
 #social-networks i {
   font-size: 160%;
   padding: 5%;
-  color: #3a3a3a;
+  color: #07185B;
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
