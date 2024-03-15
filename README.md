@@ -87,6 +87,7 @@ Bold (font-weight) was used on most text.
 - Helped with questions: https://www.beano.com/posts/the-ultimate-disney-quiz + https://www.bbc.co.uk/newsround/52023721
 - Balsamiq Wireframe: 
 - Lighthouse DevTool
+- Checked contrast: https://dequeuniversity.com/rules/axe/4.8/color-contrast
 
 
 ## Sources
