@@ -91,3 +91,4 @@ Bold (font-weight) was used on most text.
 
 ## Sources
 - https://www.youtube.com/watch?v=Xrsb9SiF3a8
+- https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp

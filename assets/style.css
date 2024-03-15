@@ -19,7 +19,7 @@
 .header {
     background-color: #ffffff;
     padding: 10px;
-    box-shadow: 0 2px 3px #07185B;
+    box-shadow: 0 2px 4px #07185B;
     }
 
 .header image {
@@ -85,7 +85,6 @@
   border: 1px solid;
   border-radius: 5px;
   cursor: pointer;
-  /*Add display: none; så gömmer sig knappen. Dyker upp när man valt alternativ*/
 }
 
 #next-btn:hover {
@@ -103,6 +102,7 @@
 
 /* Footer */
 
+
 #social-networks {
   margin-top: 20px;
   text-align: center;
@@ -110,6 +110,7 @@
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
+
 }
 
 #social-networks i {

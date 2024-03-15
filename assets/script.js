@@ -130,7 +130,7 @@ currentQuestion.answers.forEach(answer => {
 
 //Removes previous answers//
 function resetState(){
-    nextButton.style.display = "none";
+    nextButton.style.display = "block";
     while(answerButtons.firstChild){
         answerButtons.removeChild(answerButtons.firstChild);
     }
@@ -154,7 +154,7 @@ function selectAnswer(e){
         button.disabled = true;
     })
 //Shows the Next button after choosing an answer option//    
-    nextButton.style.display = "block";
+nextButton.style.display = "block";
 }
 
 function showScore(){
