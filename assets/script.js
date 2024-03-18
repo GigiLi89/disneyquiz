@@ -1,4 +1,3 @@
-
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
@@ -59,7 +58,7 @@ function selectAnswer(e){
         }
 //After choosing an answer the buttons will be disabled//        
         button.disabled = true;
-    })
+    });
 //Shows the Next button after choosing an answer option//    
 nextButton.style.display = "block";
 }
@@ -81,13 +80,13 @@ function showScore(){
     nextButton.style.display = "block";
 }
 
-nextButton.addEventListener("click", ()=> {
+nextButton.addEventListener("click", () => {
     if(currentQuestionIndex < questions.length){
         handleNextButton();
     } else {
         startQuiz();
     }
-})
+});
 
 // Questions and answer options (questions taken from beano and bbc//
 const questions = [
