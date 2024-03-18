@@ -88,6 +88,7 @@ Bold (font-weight) was used on most text.
 - Balsamiq Wireframe: 
 - Lighthouse DevTool
 - Checked contrast: https://dequeuniversity.com/rules/axe/4.8/color-contrast
+- JavaScript and jQuery by Jon Duckett (Book)
 
 
 ## Sources

@@ -89,7 +89,7 @@ nextButton.addEventListener("click", ()=> {
     }
 })
 
-// Questions and answer options //
+// Questions and answer options (questions taken from beano and bbc//
 const questions = [
     {
         question: "What was the name of Wendy's dog in Peter Pan?",

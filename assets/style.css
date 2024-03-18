@@ -26,6 +26,7 @@
   max-width: 250px;
 }
 
+/* Code partly from from GreatStack @ Youtube*/
 .quiz_game {
   background: #ffffff;
   width: 70%;
@@ -35,12 +36,14 @@
   padding: 15px;
 }
 
+/* Code partly from from GreatStack @ Youtube*/
 .quiz_game h1 {
   color: #07185B;
   border-bottom: 1px solid #07185B;
   padding: 15px;
 }
 
+/* Code partly from from GreatStack @ Youtube*/
 .quiz {
   padding: 15px 0;
 }
@@ -50,6 +53,7 @@
   margin-bottom: 10px;
 }
 
+/* Code partly from from GreatStack @ Youtube*/
 .btn {
   background: #ffffff;
   color:#07185B;
@@ -64,15 +68,18 @@
   transition: all 0.3s;
 }
 
+/* Code partly from from GreatStack @ Youtube*/
 .btn:hover:not([disabled]) {
   background: #07185B;
   color: #ffffff;
 }
 
+/* Code from from GreatStack @ Youtube*/
 .btn:disabled {
   cursor: no-drop;
 }
 
+/* Code partly from from GreatStack @ Youtube*/
 #next-btn {
   background: #07185B;
   color: #ffffff;
@@ -87,21 +94,23 @@
   cursor: pointer;
 }
 
+/* Code partly from from GreatStack @ Youtube*/
 #next-btn:hover {
   background: #ffffff;
   color: #07185B;
 }
 
+/* Code from from GreatStack @ Youtube*/
 .correct {
   background: #bbdb8a;
 }
 
+/* Code from from GreatStack @ Youtube*/
 .incorrect {
   background: #e86551;
 }
 
 /* Footer */
-
 
 #social-networks {
   margin-top: 20px;
@@ -118,6 +127,9 @@
   padding: 5%;
   color: #07185B;
 }
+
+
+/* Media Queries found below */
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
