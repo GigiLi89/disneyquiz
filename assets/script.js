@@ -1,3 +1,4 @@
+
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
@@ -63,13 +64,6 @@ function selectAnswer(e){
 nextButton.style.display = "block";
 }
 
-function showScore(){
-    resetState();
-    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
-    nextButton.innerHTML = "Play Again";
-    nextButton.style.display = "block";
-}
-
 //If there are no more questions it will display score//
 function handleNextButton(){
     currentQuestionIndex++;
@@ -78,6 +72,13 @@ function handleNextButton(){
     } else {
         showScore();
     }
+}
+
+function showScore(){
+    resetState();
+    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    nextButton.innerHTML = "Play Again";
+    nextButton.style.display = "block";
 }
 
 nextButton.addEventListener("click", ()=> {
@@ -184,3 +185,4 @@ const questions = [
 
 //Call//
 startQuiz();
+
