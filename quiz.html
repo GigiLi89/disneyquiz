@@ -1,52 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Link to stylesheet -->
+    <!-- Link to stylesheet -->
     <link rel="stylesheet" href="assets/style.css">
-<!-- Google Fonts -->
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Title -->
+    <!-- Title -->
     <title>Disney Quiz</title>
 
-<!-- Favicon -->
+    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
 </head>
 
 <body>
-    
-<!-- Header/Logo (made in Canva) -->
-   <div class ="header">
-       <img src="assets/images/quiz_logo.webp" alt="disney quiz logo">
-   </div>
+    <!-- Header/Logo (made in Canva) -->
+    <div class ="header">
+        <img src="assets/images/quiz_logo.webp" alt="disney quiz logo">
+    </div>
 
-<div id="container">
-
-        <h1>Welcome to Disney Quiz</h1>
-
-<p>In this quiz game you will find ten Disney-related questions with four answer options per question.
-    There is only one correct answer and you will get one try per question. 
-    <br>
-    <br>
-    If the answer is correct, your answer will turn green. If the answer is incorrect, it will turn red. 
-    If your answer is incorrect, the correct answer will be displayed in green. 
-    Your totalt score will be shown at the end of the quiz and you can play the game as many times as you want.
-</p>
-
-<span class="image">
-<img src="assets/images/mickey_bg.webp" alt="A clock tower with a Mickey Mouse in it">
-</span>
-
-<span class="button">
-    <a href="quiz.html" target="_self" aria-label="Takes you to the quiz (opens in the same window)">Lets Play</a>
-</span>
-
-</div>
+    <!-- The quiz game, code partly from GreatStack @ Youtube -->
+    <div class="quiz_game">
+        <h1>Disney Quiz</h1>
+        <div class="quiz">
+            <h2 id="question">Question goes in here</h2>
+            <div id="answer-buttons">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
 
     <!-- Footer, social media logos from Font Awesome -->
     <footer>
@@ -62,5 +53,6 @@
     
     <!-- Link to JavaScript file -->
     <script src="assets/script.js"></script>
+
 </body>
 </html>
