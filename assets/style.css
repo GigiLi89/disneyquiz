@@ -12,7 +12,7 @@
     background: rgb(238,168,202);
     background: linear-gradient(0deg, rgba(238,168,202,1) 0%, rgba(248,238,158,1) 100%);
     background-attachment: fixed;
-    min-height: 100vh;
+    height: 100vh;
     color: #07185B;
     text-align: center;
 }
@@ -190,9 +190,21 @@
 
 /* Media Queries found below */
 
+/* iPad and other longer devices */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #presentation {
+    padding-top: 80px; 
+  }
+}
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-.button {
+
+  #presentation {
+    padding-top: 30px; 
+  }
+
+  .button {
   width: 30%;
 }
 
