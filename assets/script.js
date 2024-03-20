@@ -83,29 +83,26 @@ const questions = [
 
 //Start quiz//
 function startQuiz() {
-    currentQuestion = 0;
+    currentQuestionIndex = 0;
+    score = 0;
     nextButton.innerHTML ="Next";
     showQuestion();
 }
 
-//Display question//
+//Display question// MINE
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
     questionElement.textContent = currentQuestion.question;
 
-
-    // --------------------------------------------------------//
-
-
-//Display answer options// Hela koden från YT Tutorial
+//Display answer options// MINE
 currentQuestion.answers.forEach(answer => {
     const button = createButton(answer.text, answer.correct);
     answerButtons.appendChild(button);
     button.addEventListener("click", selectAnswer);
 });
 }
-
+//MINE//
 function createButton(text, correct) {
     const button = document.createElement("button");
     button.textContent = text;
@@ -122,7 +119,6 @@ function resetState() {
     nextButton.style.display = "block";
 }
 
-let userAnswered = false;
 
 //Check answer//
 function selectAnswer(e){
@@ -159,8 +155,9 @@ function handleNextButton(){
 function showScore(){
     resetState();
     questionElement.textContent = `You scored ${score} out of ${questions.length}!`;
-    nextButton.textContent = "Play Again";
-    currentQuestionIndex = 0;
+    nextButton.innerHTML = "Play again";
+    nextButton.style.display = "block";
+    score = 0;
 }
 
 nextButton.addEventListener("click", () => {
