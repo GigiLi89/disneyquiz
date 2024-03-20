@@ -2,7 +2,6 @@ const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
-
 //To store index and score//
 let  currentQuestionIndex = 0;
 let score = 0;
@@ -89,6 +88,8 @@ function startQuiz() {
     showQuestion();
 }
 
+nextButton.disabled = true;
+
 //Display question// MINE
 function showQuestion() {
     resetState();
@@ -138,6 +139,7 @@ function selectAnswer(e){
 button.disabled = true;
 });
 //Shows the Next button after choosing an answer option//    
+nextButton.disabled = false;
 nextButton.style.display = "block";
 }
 
