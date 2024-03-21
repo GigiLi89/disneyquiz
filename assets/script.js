@@ -1,12 +1,13 @@
+// Code from from GreatStack @ Youtube //
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
-//To store index and score//
-let  currentQuestionIndex = 0;
-let score = 0;
 
-// Questions and answer options (questions taken from beano and bbc//
+let  currentQuestionIndex = 0;
+var score = 0;
+
+// Questions and answer options (copied from beano and bbc //
 const questions = [
     {
         question: "What was the name of Wendy's dog in Peter Pan?",
@@ -80,7 +81,7 @@ const questions = [
     },
 ];
 
-//Start quiz//
+//Start quiz, code from from GreatStack @ Youtube//
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
@@ -90,20 +91,20 @@ function startQuiz() {
 
 nextButton.disabled = true;
 
-//Display question// MINE
+//Display question//
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
     questionElement.textContent = currentQuestion.question;
 
-//Display answer options// MINE
+//Display answer options//
 currentQuestion.answers.forEach(answer => {
     const button = createButton(answer.text, answer.correct);
     answerButtons.appendChild(button);
     button.addEventListener("click", selectAnswer);
 });
 }
-//MINE//
+
 function createButton(text, correct) {
     const button = document.createElement("button");
     button.textContent = text;
@@ -114,14 +115,12 @@ function createButton(text, correct) {
     return button;
 }
 
-//Removes previous content// Tagit hela koden fron YT tutorial
 function resetState() {
     answerButtons.innerHTML = "";
     nextButton.style.display = "block";
 }
 
-
-//Check answer//
+//Check answer, part of code from from GreatStack @ Youtube//
 function selectAnswer(e){
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
@@ -144,7 +143,7 @@ nextButton.style.display = "block";
 }
 
 
-//If there are no more questions it will display score//
+//If there are no more questions it will display score. Code from from GreatStack @ Youtube//
 function handleNextButton(){
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length){
@@ -154,6 +153,7 @@ function handleNextButton(){
     }
 }
 
+// Part of code from from GreatStack @ Youtube
 function showScore(){
     resetState();
     questionElement.textContent = `You scored ${score} out of ${questions.length}!`;
@@ -162,6 +162,7 @@ function showScore(){
     score = 0;
 }
 
+// Code from from GreatStack @ Youtube //
 nextButton.addEventListener("click", () => {
     if(currentQuestionIndex < questions.length){
         handleNextButton();
