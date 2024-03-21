@@ -1,11 +1,11 @@
-// Code from from GreatStack @ Youtube //
+// Code from GreatStack @ Youtube //
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
 
 let  currentQuestionIndex = 0;
-var score = 0;
+let score = 0;
 
 // Questions and answer options (copied from beano and bbc //
 const questions = [
@@ -87,9 +87,8 @@ function startQuiz() {
     score = 0;
     nextButton.innerHTML ="Next";
     showQuestion();
+    nextButton.disabled = true;
 }
-
-nextButton.disabled = true;
 
 //Display question//
 function showQuestion() {
@@ -158,8 +157,7 @@ function showScore(){
     resetState();
     questionElement.textContent = `You scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "Play again";
-    nextButton.style.display = "block";
-    score = 0;
+
 }
 
 // Code from from GreatStack @ Youtube //

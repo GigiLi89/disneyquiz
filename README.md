@@ -105,7 +105,6 @@ Found and borrowed from a user on Unsplash (link is further down under Credit)
 - Github Repository
 - Gitpod IDE to make the site
 
-
 ## Resources and credit
 - Background Gradient: https://cssgradient.io/
 - Convert, jpeg/png to webp: https://convertio.co/jpg-webp/
@@ -121,6 +120,12 @@ Found and borrowed from a user on Unsplash (link is further down under Credit)
 - Color Palette: https://colors.muz.li/
 - Mickey Mouse clock image: https://unsplash.com/es/fotos/torre-del-reloj-de-mickey-mouse-rkYKpJ11_kk
 - Helped with questions: https://www.beano.com/posts/the-ultimate-disney-quiz + https://www.bbc.co.uk/newsround/52023721
+
+### Testing resources
+- Accessible Web: https://accessibleweb.com/website-accessibility-checker/
+- WAVE: https://wave.webaim.org/
+- W3C HTML Validator: https://validator.w3.org/
+- W3C CSS Validator: https://jigsaw.w3.org/css-validator/
 
 ## Sources
 - https://www.youtube.com/watch?v=Xrsb9SiF3a8
