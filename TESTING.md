@@ -37,12 +37,16 @@ After consulting with my Mentor Sheryl I will ignore the ES6 errors.
 Lighthouse: 
 Home page:
 - Mobile version:
+
 ![Lighthouse desktop home](assets/images_md/lh_mobile_home.png)
+
 Warnings: Avoid large layout shifts and Largest Contentful Paint element.
 I want the look to stay as it is and will therefor ignore the warning. 
 
 - Desktop version: 
+
 ![Lighthouse desktop home](assets/images_md/lh_desk_home.png)
+
 Warning: Preconnect to required origins
 Was about the link to Google Fonts so I'm ignoring the warning. 
 
@@ -72,3 +76,40 @@ Checked contrast for white background together with the dark blue (#07185B) text
 ![contrast blue and white](assets/images_md/contrast_blue.png)
 ![contrast white and blue](assets/images_md/contrast_white.png)
 
+## Full Testing
+
+**Home page:**
+
+| FEATURES             | EXPECTED OUTCOME                                          | TESTING PERFORMED | RESULT                                                             | PASS/FAIL |
+|----------------------|-----------------------------------------------------------|-------------------|--------------------------------------------------------------------|-----------|
+| Logo image           | Image is linked to Home page                              | Clicked logo      | Redirected ("refreshed") back to Home page                         | Pass      |
+| LETS PLAY button     | Button is linked to Quiz page                             | Clicked button    | Redirected to Quiz page                                            | Pass      |
+| LETS PLAY button     | Text should change colour when hover from white to yellow | Hover             | Text changed color from white to yellow                            | Pass      |
+| Facebook icon button | Redirect to FB page in new tab or to FB app               | Clicked button    | Redirected to FB page in new tab or app depending on device        | Pass      |
+| X icon button        | Redirect to X page in new tab or to X app                 | Clicked button    | Redirected to X page in new tab or app depending on device         | Pass      |
+| Istagram icon button | Redirect to Instagram page in new tab or app              | Clicked button    | Redirected to Instagram page in new tab or app depending on device | Pass      |
+
+**Quiz page:** 
+
+| FEATURES             | EXPECTED OUTCOME                                                                | TESTING PERFORMED                                    | RESULT                                                             | PASS/FAIL |
+|----------------------|---------------------------------------------------------------------------------|------------------------------------------------------|--------------------------------------------------------------------|-----------|
+| Logo image           | Image is linked to Home page                                                    | Clicked logo                                         | Redirected back to Home page                                       | Pass      |
+| Next button          | Disabled until an answer is chosen                                              | Clicked button                                       | Nothing happend                                                    | Pass      |
+| Answer options       | Should turn green or red when clicked depending if the answer is correct or not | Clicked both correct and incorrect buttons (answers) | Button turned green or red                                         | Pass      |
+| Answer options       | If answer is incorrect the correct answer turns green                           | Clicked incorrect button                             | Incorrect button turned red and the correct button turned green    | Pass      |
+| Answer options       | When hover the buttons should turn blue and the text white                      | Hover                                                | Button turned blue and the text white                              | Pass      |
+| Next button          | When answer is chosen the Next button takes you to the next question            | Clicked button                                       | New question appears                                               | Pass      |
+| Facebook icon button | Redirect to FB page in new tab or to FB app                                     | Clicked button                                       | Redirected to FB page in new tab or app depending on device        | Pass      |
+| X icon button        | Redirect to X page in new tab or to X app                                       | Clicked button                                       | Redirected to X page in new tab or app depending on device         | Pass      |
+| Istagram icon button | Redirect to Instagram page in new tab or app                                    | Clicked button                                       | Redirected to Instagram page in new tab or app depending on device | Pass      |
+
+**Pass page: **
+
+| FEATURES             | EXPECTED OUTCOME                                                      | TESTING PERFORMED | RESULT                                                             | PASS/FAIL |
+|----------------------|-----------------------------------------------------------------------|-------------------|--------------------------------------------------------------------|-----------|
+| Logo image           | Image is linked to Home page                                          | Clicked logo      | Redirected back to Home page                                       | Pass      |
+| Score                | Score should show with how many correct answers to how many questions | Played the quiz   | Showed the score                                                   | Pass      |
+| Play Again button    | Redirects back to the start of the quiz                               | Clicked button    | Redirected back to the start of the quiz                           | PASS/FAIL |
+| Facebook icon button | Redirect to FB page in new tab or to FB app                           | Clicked button    | Redirected to FB page in new tab or app depending on device        | Pass      |
+| X icon button        | Redirect to X page in new tab or to X app                             | Clicked button    | Redirected to X page in new tab or app depending on device         | Pass      |
+| Istagram icon button | Redirect to Instagram page in new tab or app                          | Clicked button    | Redirected to Instagram page in new tab or app depending on device | Pass      |

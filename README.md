@@ -120,6 +120,9 @@ Found and borrowed from a user on Unsplash (link is further down under Credit)
 - Color Palette: https://colors.muz.li/
 - Mickey Mouse clock image: https://unsplash.com/es/fotos/torre-del-reloj-de-mickey-mouse-rkYKpJ11_kk
 - Helped with questions: https://www.beano.com/posts/the-ultimate-disney-quiz + https://www.bbc.co.uk/newsround/52023721
+- Markdown cheat sheet: https://www.markdownguide.org/cheat-sheet/
+- Markdown table: https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/
+
 
 ### Testing resources
 - Accessible Web: https://accessibleweb.com/website-accessibility-checker/
