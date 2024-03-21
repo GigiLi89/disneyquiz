@@ -81,7 +81,7 @@ const questions = [
     },
 ];
 
-//Start quiz, code from from GreatStack @ Youtube//
+//Start quiz, code from GreatStack @ Youtube//
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
@@ -119,7 +119,7 @@ function resetState() {
     nextButton.style.display = "block";
 }
 
-//Check answer, part of code from from GreatStack @ Youtube//
+//Check answer, part of code from GreatStack @ Youtube//
 function selectAnswer(e){
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
@@ -142,7 +142,7 @@ nextButton.style.display = "block";
 }
 
 
-//If there are no more questions it will display score. Code from from GreatStack @ Youtube//
+//If there are no more questions it will display score. Code from GreatStack @ Youtube//
 function handleNextButton(){
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length){
@@ -152,23 +152,21 @@ function handleNextButton(){
     }
 }
 
-// Part of code from from GreatStack @ Youtube
+// Part of code from GreatStack @ Youtube
 function showScore(){
     resetState();
     questionElement.textContent = `You scored ${score} out of ${questions.length}!`;
-    nextButton.innerHTML = "Play again";
-
+    nextButton.textContent = "Play again";
 }
 
-// Code from from GreatStack @ Youtube //
-nextButton.addEventListener("click", () => {
-    if(currentQuestionIndex < questions.length){
+function nextButtonClickHandler() {
+    if (currentQuestionIndex < questions.length) {
         handleNextButton();
     } else {
         startQuiz();
     }
-});
+}
+nextButton.addEventListener("click", nextButtonClickHandler);
 
-//Call//
 startQuiz();
 

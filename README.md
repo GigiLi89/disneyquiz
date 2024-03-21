@@ -139,3 +139,4 @@ During this period of learning looked for sources that could help me understand 
 - https://www.altcademy.com/blog/how-to-make-a-quiz-in-javascript/
 - https://www.geeksforgeeks.org/how-to-create-a-simple-javascript-quiz/
 - https://www.codingninjas.com/studio/library/how-to-create-a-javascript-quiz-code
+- My friend Dennis who is a developer

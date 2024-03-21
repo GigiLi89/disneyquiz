@@ -101,7 +101,7 @@
   padding: 15px;
 }
 
-/* Code partly from from GreatStack @ Youtube*/
+/* Code partly from GreatStack @ Youtube*/
 .quiz {
   padding: 15px 0;
 }
@@ -111,7 +111,7 @@
   margin-bottom: 10px;
 }
 
-/* Code partly from from GreatStack @ Youtube*/
+/* Code partly from GreatStack @ Youtube*/
 .btn {
   background: #ffffff;
   color:#07185B;
@@ -126,13 +126,13 @@
   transition: all 0.3s;
 }
 
-/* Code partly from from GreatStack @ Youtube*/
+/* Code partly from GreatStack @ Youtube*/
 .btn:hover:not([disabled]) {
   background: #07185B;
   color: #ffffff;
 }
 
-/* Code from from GreatStack @ Youtube*/
+/* Code from GreatStack @ Youtube*/
 .btn:disabled {
   cursor: no-drop;
 }
@@ -159,12 +159,12 @@
   font-weight: 900;
 }
 
-/* Code from from GreatStack @ Youtube*/
+/* Code from GreatStack @ Youtube*/
 .correct {
   background: #bbdb8a;
 }
 
-/* Code from from GreatStack @ Youtube*/
+/* Code from GreatStack @ Youtube*/
 .incorrect {
   background: #e86551;
 }

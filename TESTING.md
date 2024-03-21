@@ -13,10 +13,15 @@ I've also deployed the site and sent the link to some friends and family to test
 
 ## Tools
 Apart from Google Chromes DevTools I also used the following tools:
+- DevTools
 - W3C HTML Validator
 - W3c CSS Validator
 - JS Hint
 - Lighthouse
+
+- DevTools: one console error on the Home Page that states that: "Uncaught TypeError: Cannot read properties of null".
+Which is Line 169 in the JavaScript code. The error disappears as soon as you click to the quiz page which is where the function is so I've chosen to ignore it. 
+![Script error](assets/images_md/script_error.png) 
 
 W3C HTML Validator: No errors found.
 ![W3C HTML Validator](assets/images_md/w3_html_rm.png)
@@ -32,8 +37,14 @@ After consulting with my Mentor Sheryl I will ignore the ES6 errors.
 Lighthouse: 
 Home page:
 - Mobile version:
+![Lighthouse desktop home](assets/images_md/lh_mobile_home.png)
+Warnings: Avoid large layout shifts and Largest Contentful Paint element.
+I want the look to stay as it is and will therefor ignore the warning. 
 
 - Desktop version: 
+![Lighthouse desktop home](assets/images_md/lh_desk_home.png)
+Warning: Preconnect to required origins
+Was about the link to Google Fonts so I'm ignoring the warning. 
 
 Quiz page: 
 - Moble version:
