@@ -68,7 +68,7 @@
   }
    
   a:hover, a:focus, a:active {
-      color: rgba(248,238,158,1);
+      color: #f8ee9e;
       text-decoration: none; 
   }
 
