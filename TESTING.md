@@ -73,6 +73,7 @@ AccessableWeb: no errors found.
 ![Accessible Web](assets/images_md/access_rm.png)
 
 Checked contrast for white background together with the dark blue (#07185B) text and the other way around. They both passed: 
+
 ![contrast blue and white](assets/images_md/contrast_blue.png)
 ![contrast white and blue](assets/images_md/contrast_white.png)
 
@@ -87,7 +88,7 @@ Checked contrast for white background together with the dark blue (#07185B) text
 | LETS PLAY button     | Text should change colour when hover from white to yellow | Hover             | Text changed color from white to yellow                            | Pass      |
 | Facebook icon button | Redirect to FB page in new tab or to FB app               | Clicked button    | Redirected to FB page in new tab or app depending on device        | Pass      |
 | X icon button        | Redirect to X page in new tab or to X app                 | Clicked button    | Redirected to X page in new tab or app depending on device         | Pass      |
-| Istagram icon button | Redirect to Instagram page in new tab or app              | Clicked button    | Redirected to Instagram page in new tab or app depending on device | Pass      |
+| Instagram icon button | Redirect to Instagram page in new tab or app              | Clicked button    | Redirected to Instagram page in new tab or app depending on device | Pass      |
 
 **Quiz page:** 
 
@@ -101,7 +102,7 @@ Checked contrast for white background together with the dark blue (#07185B) text
 | Next button          | When answer is chosen the Next button takes you to the next question            | Clicked button                                       | New question appears                                               | Pass      |
 | Facebook icon button | Redirect to FB page in new tab or to FB app                                     | Clicked button                                       | Redirected to FB page in new tab or app depending on device        | Pass      |
 | X icon button        | Redirect to X page in new tab or to X app                                       | Clicked button                                       | Redirected to X page in new tab or app depending on device         | Pass      |
-| Istagram icon button | Redirect to Instagram page in new tab or app                                    | Clicked button                                       | Redirected to Instagram page in new tab or app depending on device | Pass      |
+| Instagram icon button | Redirect to Instagram page in new tab or app                                    | Clicked button                                       | Redirected to Instagram page in new tab or app depending on device | Pass      |
 
 **Pass page: **
 
@@ -112,4 +113,4 @@ Checked contrast for white background together with the dark blue (#07185B) text
 | Play Again button    | Redirects back to the start of the quiz                               | Clicked button    | Redirected back to the start of the quiz                           | PASS/FAIL |
 | Facebook icon button | Redirect to FB page in new tab or to FB app                           | Clicked button    | Redirected to FB page in new tab or app depending on device        | Pass      |
 | X icon button        | Redirect to X page in new tab or to X app                             | Clicked button    | Redirected to X page in new tab or app depending on device         | Pass      |
-| Istagram icon button | Redirect to Instagram page in new tab or app                          | Clicked button    | Redirected to Instagram page in new tab or app depending on device | Pass      |
+| Instagram icon button | Redirect to Instagram page in new tab or app                          | Clicked button    | Redirected to Instagram page in new tab or app depending on device | Pass      |

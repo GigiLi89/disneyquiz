@@ -129,6 +129,7 @@ Found and borrowed from a user on Unsplash (link is further down under Credit)
 - WAVE: https://wave.webaim.org/
 - W3C HTML Validator: https://validator.w3.org/
 - W3C CSS Validator: https://jigsaw.w3.org/css-validator/
+- JS Hint: https://jshint.com/
 
 ## Sources
 - https://www.youtube.com/watch?v=Xrsb9SiF3a8
@@ -143,3 +144,5 @@ During this period of learning looked for sources that could help me understand 
 - https://www.geeksforgeeks.org/how-to-create-a-simple-javascript-quiz/
 - https://www.codingninjas.com/studio/library/how-to-create-a-javascript-quiz-code
 - My friend Dennis who is a developer
+
+Find my [TESTING.md](TESTING.md)
