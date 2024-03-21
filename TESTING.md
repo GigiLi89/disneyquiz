@@ -104,7 +104,7 @@ Checked contrast for white background together with the dark blue (#07185B) text
 | X icon button        | Redirect to X page in new tab or to X app                                       | Clicked button                                       | Redirected to X page in new tab or app depending on device         | Pass      |
 | Instagram icon button | Redirect to Instagram page in new tab or app                                    | Clicked button                                       | Redirected to Instagram page in new tab or app depending on device | Pass      |
 
-**Pass page: **
+**Score page:**
 
 | FEATURES             | EXPECTED OUTCOME                                                      | TESTING PERFORMED | RESULT                                                             | PASS/FAIL |
 |----------------------|-----------------------------------------------------------------------|-------------------|--------------------------------------------------------------------|-----------|
@@ -114,3 +114,9 @@ Checked contrast for white background together with the dark blue (#07185B) text
 | Facebook icon button | Redirect to FB page in new tab or to FB app                           | Clicked button    | Redirected to FB page in new tab or app depending on device        | Pass      |
 | X icon button        | Redirect to X page in new tab or to X app                             | Clicked button    | Redirected to X page in new tab or app depending on device         | Pass      |
 | Instagram icon button | Redirect to Instagram page in new tab or app                          | Clicked button    | Redirected to Instagram page in new tab or app depending on device | Pass      |
+
+## Additional information
+There are 3 problems occuring in my with the Code Institute template. 
+I've spoken to a tutor (Roman) who said I should just ignore it. I've also spoke to my mentor, Sheryl, she told me the same. 
+
+![Gitpod problems](assets/images_md/gitpod_prob.png)
