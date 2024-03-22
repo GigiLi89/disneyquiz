@@ -1,13 +1,12 @@
-// Code from GreatStack @ Youtube //
+// Get HTML elements. Code from GreatStack @ Youtube //
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
-
-
+// Track index and score //
 let  currentQuestionIndex = 0;
 let score = 0;
 
-// Questions and answer options (copied from beano and bbc //
+// Questions and answer options copied from beano and bbc //
 const questions = [
     {
         question: "What was the name of Wendy's dog in Peter Pan?",
@@ -104,6 +103,7 @@ currentQuestion.answers.forEach(answer => {
 });
 }
 
+// Create answer button //
 function createButton(text, correct) {
     const button = document.createElement("button");
     button.textContent = text;
@@ -114,6 +114,7 @@ function createButton(text, correct) {
     return button;
 }
 
+// Reset answer button //
 function resetState() {
     answerButtons.innerHTML = "";
     nextButton.style.display = "block";
@@ -152,13 +153,14 @@ function handleNextButton(){
     }
 }
 
-// Part of code from GreatStack @ Youtube
+// Display score. Part of code from GreatStack @ Youtube
 function showScore(){
     resetState();
     questionElement.textContent = `You scored ${score} out of ${questions.length}!`;
     nextButton.textContent = "Play again";
 }
 
+// Event List. for next button click //
 function nextButtonClickHandler() {
     if (currentQuestionIndex < questions.length) {
         handleNextButton();
@@ -168,5 +170,6 @@ function nextButtonClickHandler() {
 }
 nextButton.addEventListener("click", nextButtonClickHandler);
 
+// Start the game //
 startQuiz();
 
