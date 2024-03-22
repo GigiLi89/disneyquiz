@@ -136,7 +136,7 @@ Found and borrowed from a user on Unsplash (link is further down under Credit)
 - JS Hint: https://jshint.com/
 
 ## Sources
-- https://www.youtube.com/watch?v=Xrsb9SiF3a8
+- GreatStack on Youtube: https://www.youtube.com/watch?v=Xrsb9SiF3a8
 
 ### Helped and inspired me
 During this period of learning looked for sources that could help me understand and learn more about Javascript and programming a game.
