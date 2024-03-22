@@ -192,10 +192,16 @@
 
 /* Media Queries found below */
 
-/* iPad and other longer devices */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) {
   #presentation {
-    padding-top: 80px; 
+  padding-top: 50px;
+}
+}
+
+/* iPad Pro and other longer devices */
+@media screen and (min-width: 1024px ) and (max-width: 1024px) and (orientation: portrait) {
+  #presentation {
+    height: calc(100vh - 300px);
   }
 }
 

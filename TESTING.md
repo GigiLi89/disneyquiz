@@ -70,6 +70,7 @@ WAVE: no errors found.
 ![WAVE Test](assets/images_md/wave_rm.png)
 
 AccessableWeb: no errors found.
+
 ![Accessible Web](assets/images_md/access_rm.png)
 
 Checked contrast for white background together with the dark blue (#07185B) text and the other way around. They both passed: 
@@ -110,7 +111,7 @@ Checked contrast for white background together with the dark blue (#07185B) text
 |----------------------|-----------------------------------------------------------------------|-------------------|--------------------------------------------------------------------|-----------|
 | Logo image           | Image is linked to Home page                                          | Clicked logo      | Redirected back to Home page                                       | Pass      |
 | Score                | Score should show with how many correct answers to how many questions | Played the quiz   | Showed the score                                                   | Pass      |
-| Play Again button    | Redirects back to the start of the quiz                               | Clicked button    | Redirected back to the start of the quiz                           | PASS/FAIL |
+| Play Again button    | Redirects back to the start of the quiz                               | Clicked button    | Redirected back to the start of the quiz                           | Pass |
 | Facebook icon button | Redirect to FB page in new tab or to FB app                           | Clicked button    | Redirected to FB page in new tab or app depending on device        | Pass      |
 | X icon button        | Redirect to X page in new tab or to X app                             | Clicked button    | Redirected to X page in new tab or app depending on device         | Pass      |
 | Instagram icon button | Redirect to Instagram page in new tab or app                          | Clicked button    | Redirected to Instagram page in new tab or app depending on device | Pass      |

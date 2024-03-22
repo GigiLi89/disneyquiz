@@ -2,6 +2,8 @@
 ![Disney quiz](assets/images_md/disney_responsive.png)
 This is a responsive site with a quiz. The quiz has 10 Disney-related questions with four answer options per question. You get one chance on each question, but you can redo the game as many times as you want. The quiz can be played by a wide age range of people and is an easily navigated game/site. 
 
+Find the deployed site here: https://gigili89.github.io/disneyquiz/
+
 ## About the site
 The site features a simple home page with a logo in the header which is clickable back to the home page. It also has a welcoming text as well as instructions about the quiz. Under the information text there is an image of a Mickey Mouse clock with matching colors to the gradient background (#eea8ca and #f8ee9a). After the image you'll find a "Lets Play" button that will take you to the quiz.At the bottom of the page you'l find the footer which includes three social media icons to: Facebook, X and Instagram. All icons are linked to their respective pages and opens in new tabs. 
 
@@ -54,10 +56,11 @@ As a site administrator, the page should:
 
 ## Features
 ![Home page](assets/images_md/start_rm.png)
+
 The site features a clear and simple one page site including: 
 
 ### Header: 
-A logo in the header. The logo was made by me, Gigi, in Canva. 
+A logo in the header that is linked back to the Home page. The logo was made by me, Gigi, in Canva. 
 ![Header](assets/images_md/header_rm.png)
 
 ### Home page:
@@ -84,6 +87,7 @@ Social media icons in the footer from Font Awesome, the icons are linked to the 
 #07185b
 
 ![Color palette](assets/images_md/color_palette.png)
+
 In this color palette it is mainly the three first colors that are in the design. The green and the red are as well but they are only shown in the option buttons when the answer shown as correct or incorrect. 
 
 ### Font Family
@@ -143,6 +147,12 @@ During this period of learning looked for sources that could help me understand 
 - https://www.altcademy.com/blog/how-to-make-a-quiz-in-javascript/
 - https://www.geeksforgeeks.org/how-to-create-a-simple-javascript-quiz/
 - https://www.codingninjas.com/studio/library/how-to-create-a-javascript-quiz-code
-- My friend Dennis who is a developer
+
+### Acknowledge
+I also want to thank these people for everything they've done and taught me during this project:
+- My mentor Sheryl, she has been amazing with tips and engcouraging me.
+- My friend Dennis who is a developer and helped me understand Javascript.
+- My friends and family who supports me a 100% during all of these.
+- Code Institute and the Stack community who is always available and there to help and support.
 
 Find my [TESTING.md](TESTING.md)

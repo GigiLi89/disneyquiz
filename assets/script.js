@@ -103,7 +103,7 @@ currentQuestion.answers.forEach(answer => {
 });
 }
 
-// Create answer button //
+// Create answer button after questions //
 function createButton(text, correct) {
     const button = document.createElement("button");
     button.textContent = text;
