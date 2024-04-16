@@ -50,7 +50,7 @@
 }
 
 /* For the button that takes you to the quiz */ 
-.button {
+.button a {
   background-color: #07185B;
   padding: 10px;
   font-size: 20px;
