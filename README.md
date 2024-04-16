@@ -51,6 +51,40 @@ As a site administrator, the page should:
 - Be easy to update, for e.g. a new question to the quiz.
 - Be easy to add new features or change the current features.
 
+## Deployment
+The site was deployed to GitHub Pages. These are the steps to deploy:
+- In the [GitHub Repository](https://github.com/GigiLi89/disneyquiz), click on the settings tab
+- From the Code and automation column, click on pages
+- Navigate to the Branch heading under the Build and Deployment section of the page.
+- Select the main branch from the list and click on save. 
+- The page is now deployd and saved, it might take a couple of minutes for it to process.
+
+Link to the deployed site: https://gigili89.github.io/disneyquiz/
+
+### Local Deployment
+This project can be cloned or forked to make a local copy on your own system. 
+
+### Cloning
+
+Follow these steps to clone the repository:
+1. Go to the [GitHub Repository](https://github.com/GigiLi89/disneyquiz)
+2. Click on the Code button at the top of the repository
+3. Select if you prefer to clone using HTTPS or GitHub CLI and click the copy button to copy the URL to your clipboard
+4. Open the Terminal
+5. Change the current directory to the one where you want the cloned directory
+6. In your IDE Terminal, type the following command to clone:
+- git clone https://github.com/GigiLi89/disneyquiz.git
+7. Press the Enter button to create your local clone
+
+### Forking
+By Forking the original GitHub Repository on our GitHub Account so we can view and make changes without it affecting the original repository. Fork this repository by following these steps:
+1. Log in to your GitHub Account and locate the [GitHub Repository](https://github.com/GigiLi89/disneyquiz)
+2. At the top of the page you will find the Fork button. 
+3. Click on the Fork button and you should now have a copy of the original repository in your GitHub Account. 
+
+### Local vs. Deployment
+There are currently no differences between local and deployed site.
+
 ## Wireframe
 ![Wireframes](assets/images_md/wireframe_disney.png)
 
