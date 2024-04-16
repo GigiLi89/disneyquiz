@@ -125,7 +125,7 @@ I've spoken to a tutor (Roman) who said I should just ignore it. I've also spoke
 
 - W3C HTML Validator: Small error where the h1 tag was wrapped in a the article. The error was fixed by moving the h1 above and out of the article. Other than that, no errors found.
 - W3c CSS Validator: No errors found.
-- DevTools: No errors found.
+- DevTools: No errors found. One console.log error was fixed with removing the script link from the index.html since no js coding were needed there. 
 - JS hint: No new errors found, the same as above documented errors which will be ignored after consulting my mentor and tutor. 
 - Lighthouse: No new changes, the same as above documentation. 
 - WAVE: No errors found.
