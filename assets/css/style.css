@@ -64,13 +64,11 @@
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s;
-  }
-  
-  a {
   color: white;
   text-transform: uppercase;
   text-decoration: none; 
   }
+
    
   a:hover, a:focus, a:active {
       color: #f8ee9e;

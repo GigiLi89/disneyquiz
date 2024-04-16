@@ -129,4 +129,4 @@ I've spoken to a tutor (Roman) who said I should just ignore it. I've also spoke
 - JS hint: No new errors found, the same as above documented errors (only ES6) which will be ignored after consulting my mentor and tutor. 
 - Lighthouse: No new changes, the same as above documentation. 
 - WAVE: No errors found.
-- Full testing: Full testing was done without any changes. Most noticeable change for the user with the changes is the Let's Play button, where you are now able to click on the button background as well and not just the "Let's Play" text. 
+- Full testing: Full testing was done without any changes to the table above. (Most noticeable change for the user with the changes is the Let's Play button, where you are now able to click on the button background as well and not just the "Let's Play" text).
