@@ -1,5 +1,5 @@
 # Testing of Disney Quiz
-Testing has been an ongoing procedure during the building of the site. I used Google Chrome and its DevTool to locate and troubleshoot any issues and to make sure the site would be responsive. The closwer I got to finish the site, the more I tested the site. 
+Testing has been an ongoing procedure during the building of the site. I used Google Chrome and its DevTool to locate and troubleshoot any issues and to make sure the site would be responsive. The closer I got to finish the site, the more I tested the site. 
 
 The site has been tested multiple times using DevTools and on different devices to make sure the site is responsive and works on all sizes, mainly these models: 
 - Desktop
@@ -19,9 +19,7 @@ Apart from Google Chromes DevTools I also used the following tools:
 - JS Hint
 - Lighthouse
 
-- DevTools: one console error on the Home Page that states that: "Uncaught TypeError: Cannot read properties of null".
-Which is Line 169 in the JavaScript code. The error disappears as soon as you click to the quiz page which is where the function is so I've chosen to ignore it. 
-![Script error](assets/images_md/script_error.png) 
+DevTools: No errors found.
 
 W3C HTML Validator: No errors found.
 ![W3C HTML Validator](assets/images_md/w3_html_rm.png)
@@ -121,3 +119,14 @@ There are 3 problems occuring in my with the Code Institute template.
 I've spoken to a tutor (Roman) who said I should just ignore it. I've also spoke to my mentor, Sheryl, she told me the same. 
 
 ![Gitpod problems](assets/images_md/gitpod_prob.png)
+
+## New testing done
+2024-04-16: After some changes to the code after feedback from the assessor I chose to test the site thoroughly again with the following results:
+
+- W3C HTML Validator: Small error where the h1 tag was wrapped in a the article. The error was fixed by moving the h1 above and out of the article. Other than that, no errors found.
+- W3c CSS Validator: No errors found.
+- DevTools: No errors found.
+- JS hint: No new errors found, the same as above documented errors which will be ignored after consulting my mentor and tutor. 
+- Lighthouse: No new changes, the same as above documentation. 
+- WAVE: No errors found.
+- Full testing: Full testing was done without any changes. Most noticeable change for the user with the changes is the Let's Play button, where you are now able to click on the button background as well and not just the "Let's Play" text. 
